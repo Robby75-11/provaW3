@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GESTORE FORMS IN JS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Come recuperare i dati da un Form</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="firstname">Nome</label>
+          <input id="firstname" />
+        </div>
+        <label for="lastname">Cognome</label>
+        <input id="lastname" type="text" />
+        <div>
+          <label for="age">età</label>
+          <input id="age" type="età" />
+        </div>
+        <div>
+          <label for="email">email</label>
+          <input id="email" type="email" />
+        </div>
+        <div>
+          <label for="Children">figli a carico</label>
+          <select>
+            class="form-element" id="children">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>2</option>
+          </select>
+        </div>
+        <div>
+          <label for="bio">Dettagli</label>
+          <textarea class="form-element" id="bio" rows="5"></textarea>
+        </div>
+
+        <button>INVIA</button>
+      </form>
+    </main>
+    <script src="./form.js"></script>
+  </body>
+</html>

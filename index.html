@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTI NEL DOM</title>
+    <link rel="stylesheet" href="./assets/Css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Comprendere ed utilizzare al meglio gli eventi nel browser!</h1>
+      <main>
+        <h2>Creiamo qualche bottone</h2>
+        <div id="button-area">
+          <button
+            onclick="handleClick(event)"
+            onmouseenter="handleMouseEnter(event)"
+          >
+            BOTTONE 1
+          </button>
+          <input type="button" value="BOTTONE 2" onclick="handleClick(event)" />
+        </div>
+        <div id="img-container"></div>
+      </main>
+    </header>
+    <script src="./JS/events.js"></script>
+  </body>
+</html>
